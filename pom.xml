@@ -18,6 +18,7 @@
     <modules>
         <module>fosterpet-cmlx-db</module>
         <module>fosterpet-cmlx-commons</module>
+        <module>foster-redis</module>
     </modules>
 
 
