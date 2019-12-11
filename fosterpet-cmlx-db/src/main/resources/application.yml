@@ -1,0 +1,13 @@
+cmlx:
+  jpa:
+    enable: true
+
+  jdbc:
+    enable-lazy-proxy: true
+    enable-dynamic-switching: true
+    default-data-source:
+      name: "default"
+      base-url: "jdbc:mysql://"
+      db: "cmlx01"
+      username: "root"
+      password: "123456"

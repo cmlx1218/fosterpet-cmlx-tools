@@ -16,4 +16,22 @@ public class Constant {
         Available   // 有效
     }
 
+    /**
+     * token类型
+     */
+    public enum TokenType {
+        UserDmToken(0),
+        AnonymousDmToken(1);
+        private Integer val;
+
+        TokenType(Integer val) {
+            this.val = val;
+        }
+
+        public Integer getVal() {
+            return val;
+        }
+
+    }
+
 }
